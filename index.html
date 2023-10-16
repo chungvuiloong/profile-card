@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kumbh+Sans:400,700" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                    Kumbh: ['Kumbh Sans', 'sans-serif']
+                },
+                colors: {
+                    'Dark-cyan': 'hsl(185, 75%, 39%)',
+                    'Very-dark-desaturated-blue': 'hsl(229, 23%, 23%)',
+                    'Dark-grayish-blue': 'hsl(227, 10%, 46%)',
+                    'Dark-gray': 'hsl(0, 0%, 59%)'
+                }
+            }
+        }
+    }
+    </script>
+</head>
+<body class='relative min-h-screen bg-Dark-cyan flex flex-col justify-center font-Kumbh overflow-hidden'>
+    <img src='./images/bg-pattern-top.svg' alt='Pattern top' class='absolute -top-[50%] -left-[10%] z-0' />
+    <img src='./images/bg-pattern-bottom.svg' alt='Pattern bottom' class='absolute -bottom-[50%] -right-[10%] z-0'  />
+    <div class='container mx-auto flex justify-center z-10'>
+        <div class='rounded-2xl overflow-hidden bg-white text-center'>
+            <img src='./images/bg-pattern-card.svg' alt='Card Pattern' />
+            <div class='flex justify-center'>
+                 <img src='./images/image-victor.jpg' alt='Profile Picture' class='relative -mt-14 rounded-full p-2 bg-white z-20' />
+            </div>
+            <div class='pt-3 pb-7'>        
+                <div class='text-[18px]'><span class='font-bold text-Very-dark-desaturated-blue'>Victor Crest</span><span class='text-Dark-gray'> 26</span></div>
+                <div class='text-Dark-gray'>London</div>
+            </div>
+            <div class='border-t-2 flex flex-row gap-10 py-7 px-10'>
+                <div>
+                    <div class='text-[18px] text-Very-dark-desaturated-blue font-bold'>
+                        80K
+                    </div>
+                    <div class='text-Dark-gray'>
+                        Followers
+                    </div>
+                </div>
+                <div>
+                    <div class='text-[18px] text-Very-dark-desaturated-blue font-bold'>
+                        803K
+                    </div>
+                    <div class='text-Dark-gray'>
+                        Likes
+                    </div>
+                </div>
+                <div>
+                    <div class='text-[18px] text-Very-dark-desaturated-blue font-bold'>
+                        1.4K
+                    </div>
+                    <div class='text-Dark-gray'>
+                        Photos
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class='py-10 absolute lg:block hidden bottom-0 w-full bg-cyan-700 text-white text-center'>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" 
+            target="_blank" 
+            rel="noreferrer" 
+            className='underline underline-offset-4'>
+                Frontend Mentor</a>. 
+            Coded with enthusiasm by <a href="https://github.com/jeresulovuo" className='underline underline-offset-4'>Jere Sulovuo (MrJay)</a>.
+    </footer>
+</body>
+</html>
