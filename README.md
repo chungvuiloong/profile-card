@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jeresulovuo/stats-preview-card-component)
-- Live Site URL: [Vercel](https://mrjays-stats-preview-card-component.vercel.app/)
+- Solution URL: [Github](https://github.com/jeresulovuo/profile-card)
+- Live Site URL: [Vercel](https://mrjays-profile-card.vercel.app//)
 
 ## My process
 Starting with mobile first approach, I analyse both the designs in mobile and desktop view. By doing, I can understand the structure better and design a layout that suits adjusts according in both mobile and desktop.
