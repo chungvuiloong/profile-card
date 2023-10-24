@@ -22,11 +22,9 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](./screenshot/screenshot.png)
-
 ### Links
 
-- Solution URL: [Github](https://github.com/jeresulovuo/profile-card)
+- Solution URL: [Github](https://github.com/chungvuiloong/profile-card)
 - Live Site URL: [Vercel](https://mrjays-profile-card.vercel.app//)
 
 ## My process
@@ -82,6 +80,5 @@ This component can be further developed with different structure. And reused for
 
 ## Author
 
-- Website - [Jere Sulovuo/ MrJay's Simple Portfolio](https://mrjays-simple-portfolio.vercel.app/)
-- Github - [Jere Sulovuo (MrJay)](https://github.com/jeresulovuo)
-- Frontend Mentor - [@jirimicvl](https://www.frontendmentor.io/profile/jirimicvl)
+- Website - [MrJay's Simple Portfolio](https://mrjays-simple-portfolio.vercel.app/)
+- Github - [Jere / Chung Vui Loong](https://github.com/chungvuiloong)
